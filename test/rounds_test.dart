@@ -1,7 +1,6 @@
 import 'package:continentracker/src/models/Player.dart';
 import 'package:continentracker/src/models/Match.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:collection/collection.dart';
 
 void main() {
   test('Check if rounds are being generated', () {

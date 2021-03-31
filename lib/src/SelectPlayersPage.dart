@@ -1,4 +1,3 @@
-import 'package:continentracker/src/HomeScaffold.dart';
 import 'package:flutter/material.dart';
 
 class SelectPlayersPage extends StatefulWidget {

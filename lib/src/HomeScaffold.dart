@@ -1,4 +1,3 @@
-import 'package:continentracker/generated/l10n.dart';
 import 'package:continentracker/src/HistoryTab.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

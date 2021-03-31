@@ -58,7 +58,7 @@ class _HomeTabState extends State<HomeTab> {
             actions: [
               IconButton(
                 icon: Icon(Icons.settings),
-                onPressed: () =>  Navigator.pushNamed(context, '/settings'),
+                onPressed: () => Navigator.pushNamed(context, '/settings'),
               ),
             ],
           ),

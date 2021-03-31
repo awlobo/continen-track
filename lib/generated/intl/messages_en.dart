@@ -20,8 +20,9 @@ class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'en';
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static _notInlinedMessages(_) => <String, Function> {
-    "app_title" : MessageLookupByLibrary.simpleMessage("Continen-Tracker"),
-    "home_tab_title" : MessageLookupByLibrary.simpleMessage("Number of players")
-  };
+  static _notInlinedMessages(_) => <String, Function>{
+        "app_title": MessageLookupByLibrary.simpleMessage("Continen-Tracker"),
+        "home_tab_title":
+            MessageLookupByLibrary.simpleMessage("Number of players")
+      };
 }

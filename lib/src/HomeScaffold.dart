@@ -51,6 +51,7 @@ class _HomeScaffoldState extends State<HomeScaffold> {
     return WillPopScope(
       onWillPop: _systemBackButtonPressed,
       child: Scaffold(
+          key: Keys.mainScaffoldKey,
           body: SafeArea(
               top: false,
               child: IndexedStack(

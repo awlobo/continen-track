@@ -86,7 +86,6 @@ class _PlayersSpinner extends State<PlayersSpinner> {
   @override
   Widget build(BuildContext context) {
     return SpinBox(
-        key: Key("spNumPlayers"),
         min: 2,
         max: 8,
         value: 2,

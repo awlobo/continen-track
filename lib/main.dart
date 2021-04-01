@@ -16,7 +16,6 @@ class ContinenTrackerApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Continen-Tracker',
       localizationsDelegates: [
         S.delegate,
         GlobalMaterialLocalizations.delegate,

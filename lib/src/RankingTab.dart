@@ -35,7 +35,8 @@ class RankingPage extends StatefulWidget {
 class _RankingPageState extends State<RankingPage> {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return Center(
+      child: Text("RANKING"),
+    );
   }
 }

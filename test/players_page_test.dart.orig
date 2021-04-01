@@ -1,6 +1,11 @@
+import 'package:continentracker/src/HomeScaffold.dart';
 import 'package:continentracker/src/HomeTab.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+<<<<<<< HEAD
+=======
+import 'package:continentracker/src/Keys.dart' as Keys;
+>>>>>>> b5751d8 (Fix tests)
 import 'package:continentracker/main.dart';
 
 void main() {
